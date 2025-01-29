@@ -1,0 +1,41 @@
+body{
+  background-image: url(/casino.jpg);
+}
+
+
+
+.table-responsive {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  .table-responsive div {
+    width: 150px;
+    height: 150px;
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: 20px;
+  
+  }
+  .table-responsive img {
+    width: 150px;
+    height: 150px;
+    align-items:center;
+    object-fit: cover;
+    object-position: top center;
+  }
+
+  .husu{
+    width: 33%;
+    height: 30px;
+    background-color: brown;
+    font-size: x-large;
+    font-family: "IBM Plex Mono", serif;
+    font-weight: 700;
+    font-style: normal;
+    float: left;
+    margin-top:20px ;
+  }
