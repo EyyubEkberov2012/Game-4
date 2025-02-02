@@ -17,7 +17,7 @@ body{
     align-items: center;
     justify-content: center;
     overflow: hidden;
-    border-radius: 20px;
+    border-radius: 10px;
   
   }
   .table-responsive img {
@@ -39,3 +39,77 @@ body{
     float: left;
     margin-top:20px ;
   }
+  /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .husu{
+    font-size: large;
+  }
+  .table-responsive img {
+    width: 40px;
+    height: 40px;
+}
+.table-responsive div {
+  width: 40px;
+  height: 40px;
+}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .husu{
+    font-size: larger;
+  }
+  .table-responsive img {
+    width: 55px;
+    height: 55px;
+}
+.table-responsive div {
+  width: 55px;
+  height: 55px;
+}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .husu{
+    font-size:larger;
+  }
+  .table-responsive img {
+    width: 70px;
+    height: 70px;
+}
+.table-responsive div {
+  width: 70px;
+  height: 70px;
+}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .husu{
+    font-size: x-large;
+  }
+  .table-responsive img {
+    width: 90px;
+    height: 90px;
+}
+.table-responsive div {
+  width: 90px;
+  height: 90px;
+}
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .husu{
+    font-size: x-large;
+  }
+  .table-responsive img {
+    width:120px;
+    height:120px;
+}
+.table-responsive div {
+  width: 120px;
+  height: 120px;
+}
+}
